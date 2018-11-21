@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:text1.xcodeproj">
+      location = "group:/Users/admin/Documents/test/text1/text1/DetailCellView2.xib">
+   </FileRef>
+   <FileRef
+      location = "group:../text1/DetailCellView .xib">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/admin/Documents/test/text1/text1/DetailCellView.xib">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

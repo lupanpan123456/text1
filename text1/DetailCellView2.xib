@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="443"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ceo-4f-zW9">
+                    <rect key="frame" x="0.0" y="0.0" width="380" height="192"/>
+                    <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xaf-Do-848">
+                    <rect key="frame" x="0.0" y="192" width="380" height="308"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The World's Best Pastry Chef" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cfz-vY-4tq">
+                            <rect key="frame" x="79.5" y="16" width="225.5" height="20"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simon and Mrstina" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VgL-c6-zI6">
+                            <rect key="frame" x="127" y="101" width="126" height="17"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                            <color key="textColor" red="0.10588235294117647" green="0.41960784313725491" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="on Youtube" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWB-aq-6R1">
+                            <rect key="frame" x="153" y="130" width="74" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="touxiang.png" translatesAutoresizingMaskIntoConstraints="NO" id="xTt-vR-fHK">
+                            <rect key="frame" x="170" y="53" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="g8t-aq-1fE"/>
+                                <constraint firstAttribute="height" constant="40" id="hdW-2r-lRd"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoucang.png" translatesAutoresizingMaskIntoConstraints="NO" id="gWR-Uz-sek">
+                            <rect key="frame" x="170" y="175" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="EOA-2e-Psv"/>
+                                <constraint firstAttribute="width" constant="40" id="tWJ-eP-Zzx"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="434 likes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VeA-Ra-G4T">
+                            <rect key="frame" x="156" y="223" width="68" height="20"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="gWR-Uz-sek" firstAttribute="top" secondItem="ZWB-aq-6R1" secondAttribute="bottom" constant="28" id="31V-va-ZpS"/>
+                        <constraint firstItem="VeA-Ra-G4T" firstAttribute="centerX" secondItem="Xaf-Do-848" secondAttribute="centerX" id="3yg-Fo-Xz1"/>
+                        <constraint firstItem="ZWB-aq-6R1" firstAttribute="top" secondItem="VgL-c6-zI6" secondAttribute="bottom" constant="12" id="Bun-h0-z4v"/>
+                        <constraint firstItem="VgL-c6-zI6" firstAttribute="centerX" secondItem="Xaf-Do-848" secondAttribute="centerX" id="M24-kj-VEC"/>
+                        <constraint firstItem="VeA-Ra-G4T" firstAttribute="top" secondItem="gWR-Uz-sek" secondAttribute="bottom" constant="8" id="Mba-DH-yUe"/>
+                        <constraint firstAttribute="trailing" secondItem="Cfz-vY-4tq" secondAttribute="trailing" constant="75" id="Nk9-Bh-RRj"/>
+                        <constraint firstItem="VgL-c6-zI6" firstAttribute="top" secondItem="xTt-vR-fHK" secondAttribute="bottom" constant="8" id="O0B-sJ-5YD"/>
+                        <constraint firstItem="gWR-Uz-sek" firstAttribute="centerX" secondItem="Xaf-Do-848" secondAttribute="centerX" id="Z1J-kh-SBK"/>
+                        <constraint firstItem="xTt-vR-fHK" firstAttribute="centerX" secondItem="Xaf-Do-848" secondAttribute="centerX" id="dfe-Ha-zf4"/>
+                        <constraint firstItem="ZWB-aq-6R1" firstAttribute="centerX" secondItem="Xaf-Do-848" secondAttribute="centerX" id="fiA-dO-LHa"/>
+                        <constraint firstAttribute="bottom" secondItem="VeA-Ra-G4T" secondAttribute="bottom" constant="65" id="mmd-5s-bDO"/>
+                        <constraint firstItem="xTt-vR-fHK" firstAttribute="top" secondItem="Cfz-vY-4tq" secondAttribute="bottom" constant="17" id="n2k-Cr-tjm"/>
+                        <constraint firstItem="Cfz-vY-4tq" firstAttribute="leading" secondItem="Xaf-Do-848" secondAttribute="leading" constant="79.5" id="nFP-k7-bUs"/>
+                        <constraint firstItem="Cfz-vY-4tq" firstAttribute="top" secondItem="Xaf-Do-848" secondAttribute="top" constant="16" id="v8l-h4-LJ3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Xaf-Do-848" firstAttribute="top" secondItem="Ceo-4f-zW9" secondAttribute="bottom" id="3gS-hN-bAh"/>
+                <constraint firstItem="Xaf-Do-848" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="EGE-ZU-TGf"/>
+                <constraint firstItem="Ceo-4f-zW9" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Zov-pO-K1q"/>
+                <constraint firstItem="Xaf-Do-848" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="m8f-Bw-hv4"/>
+                <constraint firstItem="Ceo-4f-zW9" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="rnN-ss-Jd7"/>
+                <constraint firstItem="Ceo-4f-zW9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="zD2-0i-r6R"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="155.19999999999999" y="95.802098950524751"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="shoucang.png" width="48" height="48"/>
+        <image name="touxiang.png" width="200" height="200"/>
+    </resources>
+</document>
